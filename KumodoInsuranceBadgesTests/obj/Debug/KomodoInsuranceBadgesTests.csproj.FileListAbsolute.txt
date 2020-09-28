@@ -1,0 +1,2 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoInsuranceBadgesTests\obj\Debug\KomodoInsuranceBadgesTests.csprojAssemblyReference.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoInsuranceBadgesTests\obj\Debug\KomodoInsuranceBadgesTests.csproj.CoreCompileInputs.cache

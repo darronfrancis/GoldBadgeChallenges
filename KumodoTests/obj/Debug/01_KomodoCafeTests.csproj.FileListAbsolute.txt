@@ -1,0 +1,17 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\KumodoTests.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\KumodoTests.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\GoldBadgeConsoleApplicationChallenges.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\GoldBadgeConsoleApplicationChallenges.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\GoldBadgeConsoleApplicationChallenges.exe.config
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\obj\Debug\01_KomodoCafeTests.csprojAssemblyReference.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\obj\Debug\01_KomodoCafeTests.csproj.CoreCompileInputs.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\obj\Debug\01_KomodoCafeTests.csproj.CopyComplete
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\obj\Debug\KumodoTests.dll
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoTests\obj\Debug\KumodoTests.pdb

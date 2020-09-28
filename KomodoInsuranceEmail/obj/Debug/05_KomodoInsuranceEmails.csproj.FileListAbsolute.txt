@@ -1,0 +1,6 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\bin\Debug\KomodoInsuranceEmail.exe.config
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\bin\Debug\KomodoInsuranceEmail.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\bin\Debug\KomodoInsuranceEmail.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\obj\Debug\05_KomodoInsuranceEmails.csproj.CoreCompileInputs.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\obj\Debug\KomodoInsuranceEmail.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KomodoInsuranceEmail\obj\Debug\KomodoInsuranceEmail.pdb

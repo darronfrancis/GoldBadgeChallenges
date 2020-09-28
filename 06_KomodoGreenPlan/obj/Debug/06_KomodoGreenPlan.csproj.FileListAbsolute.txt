@@ -1,0 +1,7 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\bin\Debug\06_KomodoGreenPlan.exe.config
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\bin\Debug\06_KomodoGreenPlan.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\bin\Debug\06_KomodoGreenPlan.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\obj\Debug\06_KomodoGreenPlan.csprojAssemblyReference.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\obj\Debug\06_KomodoGreenPlan.csproj.CoreCompileInputs.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\obj\Debug\06_KomodoGreenPlan.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\06_KomodoGreenPlan\obj\Debug\06_KomodoGreenPlan.pdb
