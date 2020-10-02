@@ -1,0 +1,7 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\bin\Debug\KumodoClaims.exe.config
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\bin\Debug\KumodoClaims.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\bin\Debug\KumodoClaims.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\obj\Debug\02_KomodoClaims.csprojAssemblyReference.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\obj\Debug\02_KomodoClaims.csproj.CoreCompileInputs.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\obj\Debug\KumodoClaims.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\KumodoClaims\obj\Debug\KumodoClaims.pdb

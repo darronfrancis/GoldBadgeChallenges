@@ -14,19 +14,15 @@ namespace KomodoInsuranceBadges
 
         public Badge() { }
 
-        public Badge(string badgeName, List<string> DoorNames)
-        {
-            BadgeName = badgeName;
-            this.DoorNames = DoorNames;
-        }
-        public Badge(int badgeID)
-        {
-            BadgeID = badgeID;
-        }
         public Badge(int badgeID, string badgeName, List<string> doorNames)
         {
             BadgeID = badgeID;
             BadgeName = badgeName;
+            DoorNames = doorNames;
+        }
+
+        public Badge(int badgeID, List<string> doorNames)
+        {
             DoorNames = doorNames;
         }
     }

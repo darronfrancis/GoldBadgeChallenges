@@ -29,8 +29,8 @@ namespace KomodoInsuranceEmail
 
             if(oldContent != null)
             {
-                oldContent.FirstName = newContent.FirstName;
-                oldContent.LastName = newContent.LastName;
+                oldContent.FirstName = newContent.FirstName.ToLower();
+                oldContent.LastName = newContent.LastName.ToLower();
                 oldContent.Type = newContent.Type;
                 return true;
             }
@@ -43,16 +43,17 @@ namespace KomodoInsuranceEmail
         //DELETE
         public bool DeleteCustomer(string firstName, string lastName)
         {
-            Customer content = GetCustomerByName(firstName, lastName);
+            Customer content = GetCustomerByName(firstName.ToLower(), lastName.ToLower());
+            int initialCount = _listOfCustomers.Count;
 
-            if (content == null)
+            if (content.FirstName.ToLower() == firstName.ToLower() && content.LastName.ToLower() == lastName.ToLower())
+            {
+                _listOfCustomers.Remove(content);
+            }
+            else
             {
                 return false;
             }
-
-            int initialCount = _listOfCustomers.Count;
-            _listOfCustomers.Remove(content);
-
             if(initialCount > _listOfCustomers.Count)
             {
                 return true;
@@ -68,7 +69,7 @@ namespace KomodoInsuranceEmail
         {
             foreach (Customer item in _listOfCustomers)
             {
-                if (item.FirstName == firstName && item.LastName == lastName)
+                if (item.FirstName.ToLower() == firstName.ToLower() && item.LastName.ToLower() == lastName.ToLower())
                 {
                     return item;
                 }

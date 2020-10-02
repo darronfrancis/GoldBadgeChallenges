@@ -10,13 +10,13 @@ namespace KomodoCafe
     {
         public int MealNumber { get; set; }
         public string MealName { get; set; }
-        public string MealIngredients { get; set; }
+        public List<string> MealIngredients { get; set; }
         public string MealDescription { get; set; }
         public decimal MealPrice { get; set; }
 
-        public Menu(int mealNumber, string mealName, string mealIngredients, string mealDescription, decimal mealPrice)
+        public Menu(int mealNumber, string mealName, List<string> mealIngredients, string mealDescription, decimal mealPrice)
         {
-            MealNumber = MealNumber;
+            MealNumber = mealNumber;
             MealName = mealName;
             MealIngredients = mealIngredients;
             MealDescription = mealDescription;

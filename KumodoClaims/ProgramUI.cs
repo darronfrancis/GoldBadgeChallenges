@@ -16,6 +16,7 @@ namespace KomodoClaims
         
         public void Run()
         {
+            SeedMethod();
             Menu();
         }
 
@@ -111,8 +112,8 @@ namespace KomodoClaims
                     $"Type: {nextClaim.ClaimType}\n" +
                     $"Description: {nextClaim.ClaimDescription}\n" +
                     $"Amount: {nextClaim.ClaimAmount}\n" +
-                    $"Date of Accident: {nextClaim.DateOfIncident}\n" +
-                    $"Date of Claim: {nextClaim.DateOfClaim}\n" +
+                    $"Date of Accident: {nextClaim.DateOfIncident.ToString("MM/dd/yy")}\n" +
+                    $"Date of Claim: {nextClaim.DateOfClaim.ToString("MM/dd/yy")}\n" +
                     $"Claim is Valid: {nextClaim.IsValid}\n" +
                     $"");
 
@@ -144,10 +145,20 @@ namespace KomodoClaims
             Console.WriteLine("ClaimID * Type * Description * Amount * DateOfAccident * DateOfClaim * IsValid");
             foreach (Claim item in listOfClaims)
             {
-                Console.WriteLine($"{ item.ClaimID} * {item.ClaimType} * {item.ClaimDescription} * {item.ClaimAmount} * {item.DateOfIncident} * {item.DateOfClaim} * {item.IsValid}");
+                Console.WriteLine($"{ item.ClaimID} * {item.ClaimType} * {item.ClaimDescription} * {item.ClaimAmount} * {item.DateOfIncident.ToString("MM/dd/yy")} * {item.DateOfClaim.ToString("MM/dd/yy")} * {item.IsValid}");
             }
             Console.WriteLine("\nPress any key to continue.");
             Console.ReadLine();
+        }
+
+        private void SeedMethod()
+        {
+            Claim newClaim1 = new Claim(123, Claim.Type.Car, "Tree Branch", 1472.23m, DateTime.Parse("04/23/2020"), DateTime.Parse("04/25/2020"), true);
+            Claim newClaim2 = new Claim(124, Claim.Type.Theft, "Stolen Purse", 422.85m, DateTime.Parse("05/15/2020"), DateTime.Parse("06/25/2020"), false);
+            Claim newClaim3 = new Claim(125, Claim.Type.Home, "Kitchen Fire", 7389.45m, DateTime.Parse("08/17/2020"), DateTime.Parse("08/18/2020"), true);
+            _claimRepository.AddClaim(newClaim1);
+            _claimRepository.AddClaim(newClaim2);
+            _claimRepository.AddClaim(newClaim3);
         }
     }
 }

@@ -23,7 +23,7 @@ namespace KomodoCafe
         }
 
         //DELETE
-        public bool DeleteMenuItem(string item)
+        public bool DeleteMenuItem(int item)
         {
             Menu content = GetMenuItemByNumber(item);
 
@@ -46,11 +46,11 @@ namespace KomodoCafe
         }
 
         //HELPER
-        public Menu GetMenuItemByNumber(string name)
+        public Menu GetMenuItemByNumber(int number)
         { 
             foreach (Menu item in _menuItemsList)
             {
-                if (item.MealName == name)
+                if (item.MealNumber == number)
                 {
                     return item;
                 }

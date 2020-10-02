@@ -9,41 +9,71 @@ namespace KomodoInsuranceBadges
 {
     public class BadgeRepository
     {
-        private List<Badge> _listOfBadges = new List<Badge>();
-        public Dictionary<Badge, Badge> badgeDictionary = new Dictionary<Badge, Badge>()
+        Dictionary<int, Badge> badgeDictionary = new Dictionary<int, Badge>()
         {
-            { new Badge { BadgeID = 101 }, new Badge { BadgeName="Alexandria", DoorNames = new List<string>() {"A3", "A5"} } },
-            { new Badge { BadgeID = 102 }, new Badge { BadgeName="Olympia", DoorNames = new List<string>() {"A2", "A3", "A4"} } },
-            { new Badge { BadgeID = 103 }, new Badge { BadgeName="Persia", DoorNames = new List<string>() {"A1", "A4", "A5"} } },
+            
         };
 
-        public void AddNewBadge(Badge item1, Badge item2)
+        public void AddNewBadge(int badgeID, string badgeName, List<string> doorNames)
         {
-            badgeDictionary.Add(item1, item2);
+            Badge newBadge = new Badge(badgeID, badgeName, doorNames);
+            badgeDictionary.Add(newBadge.BadgeID, newBadge);
         }
 
         public List<Badge> ViewBadges()
         {
-            return _listOfBadges;
+            var items = badgeDictionary.Values.ToList();
+            return items;
         }
 
-/*        public Badge UpdateDoorsOnBadge(int ID, List<string>)
+        public bool UpdateDoorsOnBadge(int badgeID, Badge newContent)
+        {
+            Badge oldContent = GetBadgeByID(badgeID); 
+            if (oldContent != null)
+            {
+                oldContent.DoorNames = newContent.DoorNames;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool DeleteBadge(int ID)
         {
             Badge badge = GetBadgeByID(ID);
-            badgeDictionary.Add(ID, badge);
-            badgeDictionary.Add = badge.DoorNames(List<>);
-        }*/
+            int initialCount = badge.DoorNames.Count;
+            if (badge.BadgeID == ID)
+            {
+                badge.DoorNames = new List<string>() { };
+            }
+            else
+            {
+                Console.WriteLine("There's no badge associated with that ID.");
+            }
+            if (initialCount > badge.DoorNames.Count)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         public Badge GetBadgeByID(int ID)
         {
-            foreach (var item in _listOfBadges)
+            Badge value;
+            if (badgeDictionary.ContainsKey(ID))
             {
-                if(ID == item.BadgeID)
-                {
-                    return item;
-                }
+                value = badgeDictionary[ID];
+                return value;
             }
-            return null;
+            else
+            {
+                return null;
+            }
         }
     }
 }

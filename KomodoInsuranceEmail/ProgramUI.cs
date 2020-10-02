@@ -63,6 +63,8 @@ namespace KomodoInsuranceEmail
         {
             Console.Clear();
             List<Customer> listOfCustomers = _customerList.GetCustomers();
+            listOfCustomers.Sort((x, y) => string.Compare(x.FirstName, y.FirstName));
+
             foreach (Customer item in listOfCustomers)
             {
                 string customerStatus = item.Type.ToString();
@@ -150,10 +152,10 @@ namespace KomodoInsuranceEmail
             string firstName = Console.ReadLine();
             Console.WriteLine("Last Name:");
             string lastName = Console.ReadLine();
-            Customer content = _customerList.GetCustomerByName(firstName, lastName);
+            Customer content = _customerList.GetCustomerByName(firstName.ToLower(), lastName.ToLower());
 
             Console.Clear();
-            Console.WriteLine($"You are editing info for {content.FirstName} {content.LastName}.  Please enter the updated info:\n" +
+            Console.WriteLine($"You are editing info for {content.FirstName.ToUpper()} {content.LastName.ToUpper()}.  Please enter the updated info:\n" +
                 "First Name:");
             content.FirstName = Console.ReadLine();
             Console.WriteLine("Last Name:");
@@ -207,7 +209,7 @@ namespace KomodoInsuranceEmail
             string firstName = Console.ReadLine();
             Console.WriteLine("Last Name:");
             string lastName = Console.ReadLine();
-            _customerList.DeleteCustomer(firstName, lastName);
+            _customerList.DeleteCustomer(firstName.ToLower(), lastName.ToLower());
 
             Console.Clear();
             Console.WriteLine("Your customer has been deleted.  Current Customers:");

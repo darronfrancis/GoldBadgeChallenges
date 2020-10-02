@@ -1,0 +1,7 @@
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\bin\Debug\07_KomodoBarbecue.exe.config
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\bin\Debug\07_KomodoBarbecue.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\bin\Debug\07_KomodoBarbecue.pdb
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\obj\Debug\07_KomodoBarbecue.csprojAssemblyReference.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\obj\Debug\07_KomodoBarbecue.csproj.CoreCompileInputs.cache
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\obj\Debug\07_KomodoBarbecue.exe
+C:\Users\Darron Francis\Desktop\ElevenFiftyProjects\GoldBadgeConsoleApplicationChallenges\07_KomodoBarbecue\obj\Debug\07_KomodoBarbecue.pdb
